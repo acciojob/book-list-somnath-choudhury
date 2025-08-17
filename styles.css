@@ -1,1 +1,58 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    align-items: center;
+    text-align: center;
+}
+
+.form-group{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h1 span {
+    color: rgb(3, 158, 255);
+}
+
+#submit {
+    border: none;
+    width: fit-content;
+    color: white;
+    background-color: rgb(3, 158, 255);
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+    /* table spans container */
+    border-collapse: collapse;
+    table-layout: fixed;
+    /* forces equal widths */
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+    width: 25%;
+    /* 4 equal columns */
+}
+
+td {
+        background-color: rgb(235, 235, 235);
+}
+
+th {
+    border-bottom: 2px solid black;
+}
+
+.delete {
+    background-color: red;
+    color: white;
+}
